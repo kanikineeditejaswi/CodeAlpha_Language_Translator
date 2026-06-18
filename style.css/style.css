@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Inter',sans-serif;
+}
+
+body{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:20px;
+    overflow-x:hidden;
+
+    background:linear-gradient(
+        135deg,
+        #c4b5fd,
+        #f5d0fe,
+        #fbcfe8
+    );
+}
+
+.bg-circle{
+    position:fixed;
+    border-radius:50%;
+    background:rgba(255,255,255,0.25);
+}
+
+.circle1{
+    width:180px;
+    height:180px;
+    left:-60px;
+    bottom:50px;
+}
+
+.circle2{
+    width:140px;
+    height:140px;
+    top:80px;
+    right:80px;
+}
+
+.circle3{
+    width:90px;
+    height:90px;
+    top:60px;
+    left:120px;
+}
+
+.container{
+    width:650px;
+    max-width:90%;
+    position:relative;
+}
+
+.logo{
+    width:50px;
+    height:50px;
+    margin:auto;
+
+    border-radius:14px;
+
+    background:linear-gradient(
+        135deg,
+        #8b5cf6,
+        #6366f1
+    );
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    color:white;
+    font-size:20px;
+
+    box-shadow:
+    0 8px 20px rgba(99,102,241,0.3);
+}
+
+h1{
+    text-align:center;
+    margin-top:15px;
+
+    font-size:30px;
+    font-weight:700;
+
+    color:#111827;
+}
+
+h1 span{
+    color:#6366f1;
+}
+
+.subtitle{
+    text-align:center;
+    margin-top:8px;
+    margin-bottom:20px;
+
+    color:#475569;
+    font-size:13px;
+}
+
+.card{
+    background:rgba(255,255,255,0.45);
+
+    backdrop-filter:blur(15px);
+
+    border:1px solid rgba(255,255,255,0.4);
+
+    border-radius:20px;
+
+    padding:18px;
+
+    box-shadow:
+    0 12px 30px rgba(0,0,0,0.1);
+}
+
+.section-title{
+    display:flex;
+    align-items:center;
+    gap:8px;
+
+    color:#6366f1;
+    font-weight:600;
+
+    margin-bottom:10px;
+}
+
+textarea{
+    width:100%;
+    height:120px;
+
+    border:none;
+    outline:none;
+
+    border-radius:14px;
+
+    padding:14px;
+
+    resize:none;
+
+    background:white;
+
+    font-size:14px;
+}
+
+.counter{
+    text-align:right;
+
+    margin-top:8px;
+
+    color:#64748b;
+    font-size:12px;
+}
+
+.language-row{
+    display:flex;
+    align-items:center;
+    gap:12px;
+
+    margin-top:18px;
+}
+
+.language-box{
+    flex:1;
+}
+
+.language-box label{
+    display:block;
+
+    margin-bottom:6px;
+
+    font-weight:600;
+    color:#374151;
+
+    font-size:13px;
+}
+
+select{
+    width:100%;
+
+    padding:10px;
+
+    border:none;
+
+    border-radius:10px;
+
+    background:white;
+
+    font-size:13px;
+}
+
+.swap-btn{
+    width:45px;
+    height:45px;
+
+    border:none;
+    border-radius:50%;
+
+    background:linear-gradient(
+        135deg,
+        #8b5cf6,
+        #ec4899
+    );
+
+    color:white;
+
+    font-size:15px;
+
+    cursor:pointer;
+
+    margin-top:18px;
+
+    transition:0.4s;
+}
+
+.swap-btn:hover{
+    transform:rotate(180deg);
+}
+
+.translate-btn{
+    width:100%;
+
+    margin-top:18px;
+
+    padding:12px;
+
+    border:none;
+
+    border-radius:12px;
+
+    background:linear-gradient(
+        90deg,
+        #8b5cf6,
+        #ec4899
+    );
+
+    color:white;
+
+    font-size:14px;
+    font-weight:600;
+
+    cursor:pointer;
+}
+
+.output-section{
+    margin-top:20px;
+}
+
+.output-header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.copy-btn{
+    padding:8px 14px;
+
+    border:none;
+
+    border-radius:8px;
+
+    background:white;
+
+    color:#6366f1;
+
+    cursor:pointer;
+
+    font-size:13px;
+}
+
+.output-box{
+    margin-top:10px;
+
+    min-height:80px;
+
+    background:white;
+
+    border-radius:12px;
+
+    padding:14px;
+
+    color:#475569;
+
+    font-size:14px;
+
+    line-height:1.5;
+}
+
+@media(max-width:768px){
+
+    .container{
+        width:100%;
+    }
+
+    .language-row{
+        flex-direction:column;
+    }
+
+    .swap-btn{
+        margin-top:0;
+    }
+
+    h1{
+        font-size:26px;
+    }
+}
