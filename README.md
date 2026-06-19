@@ -1,10 +1,10 @@
 # 🌍 AI Language Translator
 
-A modern web-based language translation application developed as part of the **CodeAlpha Artificial Intelligence Internship Program**. This project enables users to translate text between multiple languages in real time through API integration while providing a clean, responsive, and user-friendly interface.
+A web-based language translation application that enables users to translate text between multiple languages in real time using API integration, with a clean and user-friendly interface.
 
 
 ## 🚀 Project Overview
-AI Language Translator is a web-based application that enables users to translate text between multiple languages in real time. The project uses a translation API to provide accurate translations through a simple, responsive, and user-friendly interface.
+The primary objective of this project is to facilitate communication across different languages through an intuitive translation platform. The system leverages translation APIs to deliver real-time translated output while ensuring a smooth and responsive user experience.
 
 
 ## ✨ Key Features
